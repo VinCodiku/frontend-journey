@@ -4,7 +4,7 @@
     <!-- M E T A - D A T A -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Ini adalah mini project pertama saya untuk belajar HTML, CSS, dan JavaScript.">
+    <meta name="description" content="Ini adalah mini project kedua saya untuk belajar HTML, CSS, dan JavaScript.">
     <meta name="keywords" content="HTML, CSS, JavaScript, mini project, belajar coding">
     <meta name="author" content="Nama Anda">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -23,42 +23,31 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- T I T L E - W E B S I T E -->
-    <title>First Project | My Personal Website - VinCodiku</title>
+    <title>Second Project | Simple To-Do-List Website - VinCodiku</title>
 </head>
 
 
 <body>
     <!-- C O N T A I N E R -->
     <div class="container">
-        <!-- N A V I G A T I O N - B A R -->
-        <nav>
-            <!-- n a v - l o g o -->
-            <a class="nav-logo" title="Dashboard | First Project" href="#">
-                VIN<span>CODIKU</span>
-            </a>
-            <!-- n a v - m e n u -->
-            <ul class="nav-menu">
-                <li>
-                    <a title="About | First Project" href="about.html">
-                        About Me
-                    </a>
-                </li>
-                <li>
-                    <a title="Activities | First Project" href="activities.html">
-                        My Activities
-                    </a>
-                </li>
-                <li>
-                    <a title="Contact | First Project" href="contact.html">
-                        Contact Me
-                    </a>
-                </li>
+        <!-- h e a d e r -->
+        <header>
+            <i data-feather="check-circle"></i>
+            <h1>Simple To-Do-List</h1>
+            <p>Buat harimu lebih teratur dan produktif!</p>
+        </header>
+        <!-- m a i n -->
+        <main>
+            <!-- Form Tambah Tugas -->
+            <form action="post" id="todoForm">
+                <input type="text" id="todoInput" placeholder="Tambahkan tugas baru..." required>
+                <button class="btn-add" type="submit">+</button>
+            </form>
+            <!-- List Daftar Tugas -->
+            <ul id="todoList">
+                <!-- Daftar tugas akan muncul di sini -->
             </ul>
-            <!-- n a v - t o g g l e -->
-            <button id="navToggle" title="Menu | First Project">
-                <i data-feather="menu"></i>
-            </button>
-        </nav>
+        </main>
     </div>
 
     <!-- S C R I P T -->
