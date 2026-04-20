@@ -1,4 +1,4 @@
-# Simple Respomsive Navbar 
+# Simple Responsive Navbar 
 Ini adalah mini proyek latihan pertama saya dalam membangun komponen web yang interaktif. Fokus utama proyek mini ini adalah mengimplementasikan manipulasi DOM menggunakan JavaScript sederhana untuk menciptakan menu yang responsif.
 
 ## Fitur
