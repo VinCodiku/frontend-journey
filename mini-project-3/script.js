@@ -146,6 +146,8 @@ function tampilkanSoal() {
                 skorSoal += 10;
             }
 
+            li.style.backgroundColor = "#ff7a7a"; // Memberikan warna merah pada jawaban yang dipilih, baik itu benar atau salah, untuk memberikan umpan balik visual kepada pengguna bahwa mereka telah memilih jawaban tersebut.
+
             setTimeout(() => {
                 indexSoal++;
                 if (indexSoal < dataSoal.length) {
@@ -153,7 +155,7 @@ function tampilkanSoal() {
                 } else {
                     tampilkanSkor();
                 }
-            }, 1000); // Jeda 1 detik biar user bisa lihat apa yang dia klik
+            }, 2000); // Jeda 2 detik biar user bisa lihat apa yang dia klik
         });
     }
 }
